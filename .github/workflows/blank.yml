@@ -13,12 +13,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: test step
-      run: echo "Welcome to test job"
+        run: echo "Welcome to test job"
 
   deploy:
     runs-on: ubuntu-latest
     steps:
       - name: deploy step
-      run: echo "Welcome to deploy job"
+        run: echo "Welcome to deploy job"
 
   
